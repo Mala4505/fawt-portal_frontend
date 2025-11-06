@@ -8,7 +8,7 @@ export default function Navbar() {
 
   const baseNavItemClass =
     'text-sm px-3 py-1.5 rounded transition font-medium';
-  const activeClass = 'text-slate-200 bg-slate-800 font-semibold';
+  const activeClass = 'text-slate-100 bg-slate-800 font-semibold';
   const inactiveClass = 'text-slate-700 hover:bg-slate-100';
 
   const getNavClass = (path: string) =>
